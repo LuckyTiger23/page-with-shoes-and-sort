@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 255px);
+    gap: 56px 36px;
+    margin: 0 auto;
+    font-family: "Montserrat";
+    width: max-content;
+}
+
+.product img{
+    height: 188px;
+    width: 255px;
+    object-fit: cover;
+}
+
+.product figcaption{
+    padding: 24px;
+}
+
+.product h3{
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 28px;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+
+.product-id{
+    color: #B3C0D2;
+    font-size: 12px;
+    font-family: "Ruda";
+}
+
+.product-price{
+    margin-top: 6px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #002C6A;
+}
+
+.product{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 20px 60px rgba(22, 92, 191, 0.1);
+}
